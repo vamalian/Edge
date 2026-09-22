@@ -98,7 +98,7 @@ jobs:
           SAFE_REPO_NAME=$(echo "$RAW_REPO_NAME" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9._-]/-/g')
           if [ -z "$SAFE_REPO_NAME" ]; then
             SAFE_REPO_NAME="android-app"
-          }
+          fi
           RUN_NUMBER="${{ github.run_number }}"
           ASSET_NAME="${SAFE_REPO_NAME}-debug-build-${RUN_NUMBER}.apk"
           DEST_PATH="$ASSET_DIR/$ASSET_NAME"
