@@ -1,0 +1,6 @@
+{
+  "name": "JARVIX",
+  "description": "JARVIX — Futuristic Personal AI Assistant with 3D Holographic HUD, Voice AI, and Owner Dashboard",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
